@@ -7,12 +7,13 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: process.env.NEXT_PUBLIC_APIKEY,
-	authDomain: process.env.NEXT_PUBLIC_AUTHDOMAIN,
-	projectId: process.env.NEXT_PUBLIC_PROJECTID,
-	storageBucket: process.env.NEXT_PUBLIC_STORAGEBUCKET,
-	messagingSenderId: process.env.NEXT_PUBLIC_MESSAGINGSENDERID,
-	appId: process.env.NEXT_PUBLIC_APPID
+	apiKey: "AIzaSyDoLykc-yHxOVLLafZmkKawnITilqxBdus",
+	authDomain: "whatsapp-3c650.firebaseapp.com",
+	projectId: "whatsapp-3c650",
+	storageBucket: "whatsapp-3c650.appspot.com",
+	messagingSenderId: "1080828926155",
+	appId: "1:1080828926155:web:497e390480acd5bfb7e34e",
+	measurementId: "G-56KEKSPDDL"
 }
 
 // Initialize Firebase
